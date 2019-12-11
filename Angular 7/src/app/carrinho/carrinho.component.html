@@ -1,0 +1,22 @@
+
+  <div id="carrinho">
+    <h3>Carrinho</h3>
+      <table>
+        <tr class="titulo">
+          <td>Nome</td>
+          <td>Quantidade</td>
+          <td>Preco</td>
+        </tr>
+          <tr *ngFor="let item of carrinho">
+              <td>{{item.nome}}</td>
+              <td>{{item.quantidade}}</td>
+              <td>{{item.preco}}</td>
+              <td><button (click)="rmvCarrinho(item)" class="btn btn-success">Remover</button></td>
+          </tr>
+      </table>
+      
+      <div class="valor-total">
+        Valor total: R${{valorTotalCarrinho}}  
+      </div>
+  </div>  
+

@@ -1,0 +1,20 @@
+#carrinho{
+     background-color:#ccc;
+     padding:20px;
+     display: block;
+     border-radius:20px;
+}
+
+.titulo td {
+    font-weight:bold;
+    font-size:1.4em;
+    padding-right:50px;
+}
+
+
+.valor-total {
+    background-color:white;
+    padding:15px;
+    margin:30px;
+    
+}

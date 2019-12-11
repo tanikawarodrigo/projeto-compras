@@ -1,0 +1,14 @@
+<div class="jumbtron">
+  <h1 class="display-4 text-center">Loja do Nelson</h1>
+  <hr>
+  <div class="row">
+    <div class="col-md-12">
+      <app-listaDeProdutos [carrinho]=carrinho [listaDeProdutos]=listaDeProdutos  (adicionarCarrinho)=addCarrinho($event)></app-listaDeProdutos>
+      <carrinho [carrinho]="carrinho"  (removeCarrinho)=removeCarrinho($event) [valorTotalCarrinho]="valorTotalNoCarrinho" >
+      </carrinho>
+    
+
+
+    </div>
+  </div>
+</div>

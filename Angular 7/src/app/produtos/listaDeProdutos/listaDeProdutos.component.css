@@ -1,0 +1,20 @@
+.produto .nome {
+    text-align:center;
+    font-size:1.7em;
+}
+
+.produto .preco {
+    text-align:center;
+    color:blue;
+}
+
+.vitrine {
+    text-align:center;
+}
+
+.produto {
+    text-align:center;
+    display: inline;
+    float:left;
+    width:25%;
+}
